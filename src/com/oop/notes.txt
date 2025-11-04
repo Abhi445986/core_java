@@ -39,7 +39,7 @@ class <class name >
              |- Calling of lv depend on : object
              |- Memory Allocation : Heap
              |- How many times Memory will create :depend upon on. of object, if we have
-                  3  object of a class then 3 time memory will will create for single TV
+                  3  object of a class then 3 time memory will be create for single TV
 
 
         * Static Variable
