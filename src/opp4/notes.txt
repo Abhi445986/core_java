@@ -1,0 +1,39 @@
+Abstraction
+===========
+1. It is a process in which hiding implementation details and showing only functionality to the user.
+2. Abstraction can be achieved by
+      |- Abstract class.
+      |- Interfaces.
+
+Abstract class
+==============
+1. If we assign ' abstract' keyworld of the class then we can say that class is an abstract
+2. Abstract class consist Abstract  method and non-abstract method
+    abstract class.
+             abstract void show();
+
+      non-abstract method
+           void show ()
+           {
+           // statement
+
+         }
+
+ 3. If we declare a class ' abstract' than it is compulsory to create child class of that  abstract
+ 4. Child class is
+
+ Interfaces
+ ==========
+ 1. It is used to achieve abstrection.
+ 2. It is also used to achieve Multiple Inheritance.
+ 3. by using achieve program become loosely coupled.
+ 4. Syntax:
+
+          Interfaces < Interfaces-name>
+          {
+              // elements
+          }
+
+5. Relation b/w  class and  Interfaces
+6.  Internal details of interfaces.
+7.

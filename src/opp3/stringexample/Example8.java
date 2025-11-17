@@ -1,4 +1,4 @@
-package com.stringexample;
+package opp3.stringexample;
 
 public class Example8 {
     public static void main(String[] args){

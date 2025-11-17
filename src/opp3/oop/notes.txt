@@ -1,0 +1,126 @@
+Object Oriented Programming
+---------------------------
+1. Java is a class based language
+2. Java class consist 5 elements .
+      1. Variables
+      2. Methods
+      3. constructors
+      4. Blocks
+      5. Inner Class (Nested Class)
+
+ Example :
+
+class <class name >
+{
+  1. Variables
+      2. Methods
+      3. constructors
+      4. Blocks
+      5. Inner Class (Nested Class)
+
+  }
+
+  3. Variables
+  a. Variables are used to store data/ value
+
+   Example :
+        int rollno = 101:
+        Where "rollno " is variables that store 101 (data / value constant)
+
+   b. There are 3 types of Variables in java.
+        * local Variables
+              |- lv are define inside the Method / constructor/ block.
+              |- Calling of lv depend on :Method / constructor/ block.
+              |- Memory Allocation : Stack
+
+
+        * Instant   variables
+             |- IV are define inside the class but outside the Method / constructor/ block.
+             |- Calling of lv depend on : object
+             |- Memory Allocation : Heap
+             |- How many times Memory will create :depend upon on. of object, if we have
+                  3  object of a class then 3 time memory will be create for single TV
+
+
+        * Static Variable
+             |-   SV are define inside the class but outside the Method / constructor/ block.
+             |- Calling of lv depend on : class
+             |- Memory Allocation : Non-Heap
+             |- How many times Memory will create : one time.
+
+     Example :
+           Program1.java
+
+     4. Methods
+     a. Methods are used to write the logics of the program.
+     a1.Unit testing apply on methods only.
+     b. There are two types of methods
+             |- Instance Methods or non-static  Methods
+             |- Static Methods
+
+     Example :
+        Program2
+
+        Calling Rules
+        --------------------
+         1. Instance Method -------Directly--------> Instance Mathod/Variable .
+         2. Static Method ---------oject--------> Instance Mathod/Variable .
+         3. Instance Method -------Classname-------->Static Method .
+         4. Static Method   -------Classname-------->Static Method .
+
+ Program3
+
+Q.  How to creat Object of a class
+A.  There are 4 types of  object
+      |- Named Object
+      |- Nameless Object
+      |- Instance Fectory Method
+      |- Static Fectory Method
+
+        ---------------------------------------
+            |- Named Object
+            Syntex :
+
+                  classs-name object name = new constructor -name();
+
+   Example :
+           Program4 obj1 = Program4();
+
+      |- Nameless Object
+       Syntex :
+
+              new constructor -name();
+
+            Example :
+                  Program4();
+
+=====================================================================================================
+
+   5. CONSTRUCTORS
+   ---------------
+    1. Constructor is a special type of method which is invoked implicitly (autometically called ) at the time of object creation .
+     2. it is use tp initialize object .
+     3. It is also use to initialize Instance Variables by using default values.
+
+       data type               default values
+              -------------------------------------------
+
+              byte, short, int, long           0
+              double, float                    0.0
+              boolean                          false
+              char                             1 space
+              String                           null
+
+-----------------------------------------------------------
+        4. Type of Constructor
+
+         |- Default Constructor
+             ---> Zero Parameter [Compiler]
+         |- User Define Constructor
+            ---> Zero or more theen Zero Parameterized
+
+
+
+
+
+
